@@ -18,6 +18,7 @@ def step_impl(context):
 
     # context.driver.find_element(By.XPATH, "//a[@title='My Account']").click()
     # context.driver.find_element(By.XPATH, "//a[normalize-space()='Register']").click()
+    # voice care
 
 
 @when(u'I enter details into mandatory fields')
