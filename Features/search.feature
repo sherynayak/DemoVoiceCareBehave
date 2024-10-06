@@ -7,7 +7,7 @@ Feature: Search Functionality
     And I click on the search button
     Then Valid product should display on the search result page
 
-  @Search
+  @SearchOne
   Scenario: Search for an invalid product
     Given I got navigated to search page
     When I enter the invalid product on the search field
