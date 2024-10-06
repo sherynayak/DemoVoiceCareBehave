@@ -46,7 +46,7 @@ def step_impl(context):
 @then(u'Proper message should display on the search result page')
 def step_impl(context):
     time.sleep(2)
-    expected_result = "There is no product that matches the search criteria.abc"
+    expected_result = "There is no product that matches the search criteria."
     # search_page = SearchPage(context.driver)
     assert context.search_page.display_invalid_product_message(expected_result)
 
