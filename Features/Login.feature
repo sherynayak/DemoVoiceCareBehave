@@ -9,7 +9,7 @@ Feature: Login Functionality
     Examples:
       | email                       | password  |
       | sheriffnayak@gmail.com      | 12345     |
-      | amotoorisampleone@gmail.com | secondone |
+      | sherynayak@gmail.com        | 12345     |
 
   @login
   Scenario: Login with valid username and invalid password
